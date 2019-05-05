@@ -1,0 +1,85 @@
+body {
+  background: black;
+  font-family: sans-serif;
+}
+
+.div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  border: solid white;
+  margin: 5% 40% 5% 40%;
+  padding: 2%;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.div1:hover {
+  color: black;
+  background: white;
+}
+
+.div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  border: solid white;
+  margin: 5% 40% 5% 40%;
+  padding: 2%;
+  cursor: pointer;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.div2:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  color: black;
+  background-color: white;
+}
+
+.div3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  border: solid white;
+  margin: 5% 40% 5% 40%;
+  padding: 2%;
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  -webkit-transition: left 1s, black 1s;
+  transition: left 1s, black 1s;
+}
+
+.div3:hover {
+  left: 100px;
+  color: black;
+  background: white;
+}
+/*# sourceMappingURL=style.css.map */
